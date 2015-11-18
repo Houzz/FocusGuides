@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4E4B26C1BA5C485007AEC1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E4B26B1BA5C485007AEC1B /* AppDelegate.swift */; };
+		E4E4B26E1BA5C485007AEC1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E4B26D1BA5C485007AEC1B /* ViewController.swift */; };
+		E4E4B2711BA5C485007AEC1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E4B26F1BA5C485007AEC1B /* Main.storyboard */; };
+		E4E4B2731BA5C485007AEC1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E4B2721BA5C485007AEC1B /* Assets.xcassets */; };
+		E4E4B27B1BA5C4F7007AEC1B /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E4B27A1BA5C4F7007AEC1B /* PinView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E4E4B2681BA5C484007AEC1B /* FocusGuides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusGuides.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E4B26B1BA5C485007AEC1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4E4B26D1BA5C485007AEC1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4E4B2701BA5C485007AEC1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4E4B2721BA5C485007AEC1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4E4B2741BA5C485007AEC1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E4B27A1BA5C4F7007AEC1B /* PinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4E4B2651BA5C484007AEC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4E4B25F1BA5C484007AEC1B = {
+			isa = PBXGroup;
+			children = (
+				E4E4B26A1BA5C485007AEC1B /* FocusGuides */,
+				E4E4B2691BA5C484007AEC1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4E4B2691BA5C484007AEC1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4E4B2681BA5C484007AEC1B /* FocusGuides.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4E4B26A1BA5C485007AEC1B /* FocusGuides */ = {
+			isa = PBXGroup;
+			children = (
+				E4E4B26B1BA5C485007AEC1B /* AppDelegate.swift */,
+				E4E4B26D1BA5C485007AEC1B /* ViewController.swift */,
+				E4E4B26F1BA5C485007AEC1B /* Main.storyboard */,
+				E4E4B2721BA5C485007AEC1B /* Assets.xcassets */,
+				E4E4B2741BA5C485007AEC1B /* Info.plist */,
+				E4E4B27A1BA5C4F7007AEC1B /* PinView.swift */,
+			);
+			path = FocusGuides;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4E4B2671BA5C484007AEC1B /* FocusGuides */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4E4B2771BA5C485007AEC1B /* Build configuration list for PBXNativeTarget "FocusGuides" */;
+			buildPhases = (
+				E4E4B2641BA5C484007AEC1B /* Sources */,
+				E4E4B2651BA5C484007AEC1B /* Frameworks */,
+				E4E4B2661BA5C484007AEC1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FocusGuides;
+			productName = FocusGuides;
+			productReference = E4E4B2681BA5C484007AEC1B /* FocusGuides.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4E4B2601BA5C484007AEC1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Houzz;
+				TargetAttributes = {
+					E4E4B2671BA5C484007AEC1B = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = E4E4B2631BA5C484007AEC1B /* Build configuration list for PBXProject "FocusGuides" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4E4B25F1BA5C484007AEC1B;
+			productRefGroup = E4E4B2691BA5C484007AEC1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4E4B2671BA5C484007AEC1B /* FocusGuides */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4E4B2661BA5C484007AEC1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E4B2731BA5C485007AEC1B /* Assets.xcassets in Resources */,
+				E4E4B2711BA5C485007AEC1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4E4B2641BA5C484007AEC1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E4B26E1BA5C485007AEC1B /* ViewController.swift in Sources */,
+				E4E4B26C1BA5C485007AEC1B /* AppDelegate.swift in Sources */,
+				E4E4B27B1BA5C4F7007AEC1B /* PinView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4E4B26F1BA5C485007AEC1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4E4B2701BA5C485007AEC1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4E4B2751BA5C485007AEC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		E4E4B2761BA5C485007AEC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4E4B2781BA5C485007AEC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FocusGuides/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houzz.FocusGuides;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E4E4B2791BA5C485007AEC1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FocusGuides/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houzz.FocusGuides;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4E4B2631BA5C484007AEC1B /* Build configuration list for PBXProject "FocusGuides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E4B2751BA5C485007AEC1B /* Debug */,
+				E4E4B2761BA5C485007AEC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E4B2771BA5C485007AEC1B /* Build configuration list for PBXNativeTarget "FocusGuides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E4B2781BA5C485007AEC1B /* Debug */,
+				E4E4B2791BA5C485007AEC1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4E4B2601BA5C484007AEC1B /* Project object */;
+}
